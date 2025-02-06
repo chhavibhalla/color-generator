@@ -4,6 +4,8 @@ function color(){
     const randnum = "#"+ num.toString(16);
 
     document.body.style.backgroundColor=randnum;
+    document.getElementById("label").innerText=randnum;
+
    
     
 }
